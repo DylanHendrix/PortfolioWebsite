@@ -842,6 +842,12 @@ input[type=text]:focus{
         text-align: left;
     }
 
+    .form-container{
+        border: 4px solid #E7BDFF;
+        border-radius: 4px;
+        padding: 0px 40px;
+    }
+
     #message{
         border-radius: 4px;
         padding: 12px 40px;
@@ -849,7 +855,66 @@ input[type=text]:focus{
         border: 2px solid #E7BDFF;
     }
 
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr;
+        justify-items: center;
+    }
 
+    .parent p{
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    .parent2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr;
+        justify-items: center;
+    }
+
+    .parent2 p{
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    .parent3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr;
+        justify-items: center;
+    }
+
+    .parent3 img {
+        width: 80%;
+    }
+
+    .parent3 p{
+        padding-top: 0px;
+        max-width: 400px;
+        font-size: 10px;
+    }
+
+    body, html {
+        overflow: scroll;
+    }
+
+    .work-pages{
+        width: 100vw;
+        height: 150vh;
+        background-color: #13001F;
+    }
+
+    .work-pages h1{
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+        text-align: center;
+        color: #ffffff;
+        padding-top: 40px;
+    }
 }
 
 
