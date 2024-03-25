@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DH Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de0e1df870.js" crossorigin="anonymous"></script>
+    <link rel="Website Icon" type="png"
+          href="images/code_icon-icons.com_73620.png">
+</head>
+<body>
+
+
+<div  class="navbar">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#qualities">Qualities</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- <video autoplay loop muted playsinline class="background-video">
+    <source src="videos/background2.mp4" type="video/mp4">
+</video> -->
+
+
+<div class="overlay"></div> <!-- Black overtone overlay -->
+
+
+<div id="home" class="grid-container">
+    <div id="landing-title" class="container-child">
+        <h1>Hello, I am Dylan </h1>
+        <h2>Developer and designer</h2>
+        <p>I am an intermidiate Software Developer from the netherlands <br>
+            specialized in web and game development. <br>
+            Proficient in diverse platforms and
+            languages <br>
+            Familiar with multiple development tools and techniques. <br>
+            Capable of both independent project management
+            and collaborative teamwork. <br>
+            Pretty good in UI/UX design using programs like Photoshop and Figma.</p>
+        <div class="icons">
+            <a target="_blank" class="icons-child" href="https://www.instagram.com/dylan.hendrix_/"><i id="instagram-link" class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" class="icons-child" href="https://www.linkedin.com/in/dylan-hendrix-b71094265/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="icons-child" href="docs/Resume%20Dylan%20Hendrix.pdf" target="_blank"><i class="fa-regular fa-file"></i></a>
+            </div>
+
+        <a href="#contact"><button id="contact-button">Get in touch</button></a>
+    </div>>
+            <div class="container-child">
+                <img src="images/cvfoto-nieuw.jpg">
+            </div>
+</div>
+
+
+
+
+
+<div id="qualities" class="section-container qualities-container">
+    <div class="qualities-title"><h1>Qualities</h1></div>
+    <div class="section-content qualities">
+        <div class="box">
+            <div class="box-content">
+                <h1>Game Dev</h1>
+                <p>I`m quite skilled in the game dev department</p>
+                <p>I have a good understanding of C# and am familiar with Unity</p>
+                <p>when it comes to game dev my specialties are casual 2D mobile games</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h1>Web Dev</h1>
+                <p>When it comes to web dev I`m quite skilled </p>
+                <p>I have a good understanding of HTML and CSS, I´m still learning JS but i know the basics</p>
+                <p></p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h1>Design</h1>
+                <p>Design is a thing I really like but also a thing I`m still learning</p>
+                <p>the reason why I like it so much is because, I`m such a creative person and like it when things look nice</p>
+                <p>I mostly use programs like Figma, XD or Photoshop where i have a good base in</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="work" class="section-container work-container">
+  <!--
+     <div class="section-content work">
+         <div class="work-child">
+             <h1>Ambition Project</h1>
+             <img id="recent1" src="images/Ambitie%20project.jpg">
+         </div>
+         <div class="work-child">
+             <h1>Mobile 2D Runner</h1>
+             <img id="recent2" src="images/Mobile%20game.jpg">
+         </div>
+     </div>
+
+     <div class="work-button"><a href=""><button class="work-button-child">See All</button></a></div>  -->
+
+    <div class="carousel-container">
+        <div class="work-title"><h1>My work</h1></div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <a href="#work1"><img src="images/splashart-2d-platform.jpg" style="width:100%"></a>
+                <div class="text">Arcane Archer</div>
+            </div>
+
+            <div class="mySlides fade">
+                <a href="#work2"><img src="images/Mobile%20game.jpg" style="width:100%"></a>
+                <div class="text">The Lost Runner</div>
+            </div>
+
+            <div class="mySlides fade">
+                <a href="#work3"><img src="images/splashart.jpg" style="width:100%"></a>
+                <div class="text">Finance app design</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+<div id="work1" class="work-pages">
+    <div class="parent">
+        <div><h1>Arcane Archer</h1></div>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem distinctio inventore nobis quae. Ab officia reiciendis repellendus. Animi, debitis dolorum ea eum iusto minima omnis quos recusandae repellat repellendus sunt suscipit tempore voluptatem! Aperiam beatae commodi doloremque eligendi fuga itaque, iusto nisi nobis nostrum reiciendis rem repellat, sunt, voluptas.</p></div>
+        <div><img src="gifs/parkour-2D-platformer.gif"></div>
+        <div></div>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae expedita necessitatibus nostrum. Adipisci, architecto asperiores dolor dolore dolores eum impedit labore porro praesentium, repellat tempora ut vitae. Ab accusantium dolore eaque error esse est ex fugit, ipsam ipsum iusto magnam mollitia nam porro quaerat quibusdam quo repellat sunt suscipit voluptates.</p></div>
+        <div><img src="gifs/movement-2D-platformer.gif"></div>
+        <div><img src="gifs/splashart-gif.jpg"></div>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque consequatur delectus ducimus ipsam itaque, iusto labore officiis quidem soluta. Alias eos libero magnam nisi, numquam provident quasi quia ratione recusandae rem saepe sint sunt? Est fuga itaque quos suscipit voluptatem? Cumque eos minus nemo nulla officia quia, quis repellat!</p></div>
+        <div><img src="gifs/boss-2D-platformer.gif"></div>
+    </div>
+</div>
+
+<div id="work2" class="work-pages">
+    <div class="parent2">
+        <div><h1>The Lost Runner</h1></div>
+        <div></div>
+        <div><img src="gifs/2D-Mobile_Runner.gif"></div>
+        <div></div>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae expedita necessitatibus nostrum. Adipisci, architecto asperiores dolor dolore dolores eum impedit labore porro praesentium, repellat tempora ut vitae. Ab accusantium dolore eaque error esse est ex fugit, ipsam ipsum iusto magnam mollitia nam porro quaerat quibusdam quo repellat sunt suscipit voluptates.</p></div>
+        <div></div>
+        <div><img src="gifs/splashart-2D-runner.jpg"></div>
+        <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque consequatur delectus ducimus ipsam itaque, iusto labore officiis quidem soluta. Alias eos libero magnam nisi, numquam provident quasi quia ratione recusandae rem saepe sint sunt? Est fuga itaque quos suscipit voluptatem? Cumque eos minus nemo nulla officia quia, quis repellat!</p></div>
+        <div><img src="gifs/start-2D-Runner.gif"></div>
+    </div>
+</div>
+
+<div id="work3" class="work-pages">
+    <div class="parent3">
+        <div>
+            <h1>Finance app design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores atque cumque,
+                <br>doloribus eum facere magnam nostrum obcaecati optio possimus. Consectetur eligendi
+                <br> et eum eveniet fugiat fugit harum in ipsam iste itaque molestias nobis non nulla obcaecati
+                officiis optio perferendis quas recusandae repellat reprehenderit rerum sapiente
+                 sed similique soluta totam veritatis, voluptatum. Accusantium consectetur illo itaque nisi
+                 nostrum repellat unde. Adipisci aperiam architecto atque aut culpa cumque dolore enim ex fuga harum hic in minus
+                <br>nam non, officiis porro praesentium quia repellat rerum saepe, soluta suscipit temporibus
+                <br>unde velit veniam voluptatem voluptates voluptatibus? Beatae cupiditate dolor nemo non praesentium, unde.</p>
+        </div>
+        <div><img src="gifs/finance-app-small.png"></div>
+        <div><img src="gifs/statistics-app-small.png"></div>
+    </div>
+</div>
+
+<div class="section-container contact-container" id="contact">
+    <div class="contact-title"><h1>Contact</h1></div>
+    <div class="section-content contact">
+        <div id="error_message"></div>
+        <div class="form-container">
+            <form action="https://formsubmit.co/dylanhendrix6@gmail.com" method="POST">
+
+                <div class="input_field">
+                    <h3>Name</h3>
+                    <input type="text" name="name"
+                           id="name">
+                </div>
+                <div class="input_field">
+                    <h3>Subject</h3>
+                    <input type="text" name="Subject"
+                           id="subject">
+                </div>
+                <div class="input_field">
+                    <h3>Phone</h3>
+                    <input type="text" name="Phone"
+                           id="phone">
+                </div>
+                <h3>Email</h3>
+                <div class="input_field">
+                    <input type="text" name="Email"
+                           id="email">
+                </div>
+                <h3>Message</h3>
+                <div class="input_field">
+                    <textarea
+                            id="message" name="Message">
+                    </textarea>
+                </div>
+                <div class="btn">
+                    <button class="button-btn" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
