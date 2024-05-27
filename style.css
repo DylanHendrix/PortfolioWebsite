@@ -9,7 +9,7 @@ body, html {
     position: relative;
     scrollbar-width: thin;
     scrollbar-color: #ffffff transparent;
-    overflow: hidden;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     background-color: #13001F;
     /* background-image: url("images/pexels-neo-2653362.jpg"); */
@@ -354,6 +354,14 @@ a {
     padding-top: 0;
 }
 
+#work2{
+    background: linear-gradient(90deg, rgba(19,29,108,1) 0%, rgba(92,48,113,1) 100%);
+}
+
+#work{
+    background: linear-gradient(90deg, rgba(19,29,108,1) 0%, rgba(92,48,113,1) 100%);
+}
+
 .contact h1 {
     font-family: Verdana;
     font-weight: bold;
@@ -664,6 +672,20 @@ input[type=text]:focus{
     max-width: 400px;
 }
 
+.parent4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.parent4 p{
+    padding-top: 50px;
+}
+
 
 
 
@@ -893,6 +915,18 @@ input[type=text]:focus{
     .parent3 p{
         padding-top: 0px;
         max-width: 400px;
+        font-size: 10px;
+    }
+
+    .parent4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr;
+        justify-items: center;
+    }
+
+    .parent4 p{
+        padding-top: 0px;
         font-size: 10px;
     }
 
